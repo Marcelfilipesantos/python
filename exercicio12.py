@@ -1,0 +1,6 @@
+lp = float(input("Largura da parede: "))
+ap = float(input('Altura da parede: '))
+ar = (lp * ap)
+print(f'Sua parede tem a dimensão de {lp} x {ap} e sua área é de {ar:.2f}m²')
+ti = (ar/2)
+print(f'Para pintar essa parede vai ser necessario de {ti}L de tinta')

@@ -1,0 +1,6 @@
+d = float(input('Quantos dias alugados?'))
+km = float(input('Quantos Km rodados?'))
+dias = (d * 60)
+kmp = (km * 0.15)
+total = (dias + kmp)
+print(f'O tatal a pagar é de R${total}')
